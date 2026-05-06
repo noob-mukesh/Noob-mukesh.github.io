@@ -18,7 +18,47 @@ body{
     -moz-background-size: 100%;
     -o-background-size: 100%;
 }
+.projects-container {
+     width: 100%;
+}
 
+.project-card {
+     padding: 14px 16px;
+     border-radius: 14px;
+     background: rgba(255, 255, 255, 0.06);
+     border: 1px solid rgba(255, 255, 255, 0.12);
+     transition: 0.3s ease;
+}
+
+.project-card:hover {
+     transform: translateY(-3px);
+     background: rgba(255, 255, 255, 0.09);
+}
+
+.project-title {
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     margin-bottom: 8px;
+     color: #ffffff;
+}
+
+.project-link {
+     display: inline-block;
+     margin-top: 8px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 13px;
+     font-weight: 500;
+     text-decoration: none;
+     color: #ffffff;
+     padding: 7px 12px;
+     border-radius: 20px;
+     background: rgba(255, 255, 255, 0.14);
+}
+
+.project-link:hover {
+     background: rgba(255, 255, 255, 0.24);
+}
 canvas {
     display: block;
   }
